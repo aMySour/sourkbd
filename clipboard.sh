@@ -3,9 +3,9 @@
 sleep 0.5
 
 # draw a regular polygon with mouse using xte
-side_count=4
-radius=100
-delay=0.01
+side_count=20
+radius=50
+delay=0.1
 
 # Calculate the angle between each side in radians
 angle_increment=$(awk "BEGIN {print (2*3.14159)/$side_count}")
